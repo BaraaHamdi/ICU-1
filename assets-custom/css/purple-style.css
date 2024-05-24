@@ -1,0 +1,268 @@
+﻿.dx-editor-cell .dx-texteditor .dx-texteditor-input {
+    height: 25px !important;
+    line-height: 25px !important;
+}
+.dx-datagrid .dx-menu .dx-menu-item .dx-menu-item-content .dx-icon, .dx-datagrid-container .dx-menu .dx-menu-item .dx-menu-item-content .dx-icon {
+    line-height: 0px !important;
+}
+.dx-menu-base .dx-menu-item .dx-menu-item-content {
+    height: 25px !important;
+}
+.dx-datagrid .dx-editor-with-menu, .dx-datagrid-container .dx-editor-with-menu {
+    height: 25px !important;
+}
+.dx-datagrid .dx-row > td {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+}
+.dx-widget {
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+}
+body.page-md {
+    /*background: rgba(49, 122, 184, 0.180392) !important;*/
+    background: #f0f1f2 !important;
+}
+
+.font-rose {
+    color: #337ab7;
+}
+
+@media (max-width: 768px) {
+    .card2 {
+        font-size: 10px !important;
+    }
+
+        .card2 h4 {
+            font-size: 16px !important;
+        }
+}
+
+.panel-text-helper {
+    font-size: 10px !important;
+}
+
+.panel-rose .panel-title > a:hover {
+    color: #fff !important;
+}
+
+.card2 {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+    margin: 5px 5px;
+    box-shadow: 1px 5px 10px 4px rgba(0, 0, 0, 0.1);
+    border: solid thin rgba(0,0,0,0.1);
+    border-bottom: solid 4px rgba(0,0,0,0.1);
+    transition: all 0.1s ease-in-out;
+    cursor: default;
+}
+
+    .card2 .m-grid-col {
+        height: 25px;
+    }
+
+
+    .card2:hover {
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    }
+
+
+.panel-rose {
+    border-color: #337ab7;
+}
+
+    .panel-rose > .panel-heading {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #337ab7;
+    }
+
+        .panel-rose > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #337ab7;
+        }
+
+        .panel-rose > .panel-heading .badge {
+            color: #337ab7;
+            background-color: #fff;
+        }
+
+    .panel-rose > .panel-footer + .panel-collapse > .panel-body {
+        border-bottom-color: #337ab7;
+    }
+
+.rose {
+    background-color: #337ab7 !important;
+}
+
+.roseborder {
+    border: 1px solid #337ab7 !important;
+}
+
+.btn-rose {
+    color: #fff !important;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+    .btn-rose.active.focus, .btn-rose.active:focus, .btn-rose.active:hover, .btn-rose:active.focus, .btn-rose:active:focus, .btn-rose:active:hover, .open > .btn-rose.dropdown-toggle.focus, .open > .btn-rose.dropdown-toggle:focus, .open > .btn-rose.dropdown-toggle:hover {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #337ab7;
+    }
+
+    .btn-rose.active, .btn-rose:active, .btn-rose:hover, .open > .btn-rose.dropdown-toggle {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #337ab7;
+    }
+
+.page-sidebar .page-sidebar-menu > li.heading > h3, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.heading > h3 {
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu > li.active.open > a, .page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a {
+    background: #f2f6f9;
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu > li.active > a, .page-sidebar .page-sidebar-menu .sub-menu > li.open > a, .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a {
+    color: #337ab7;
+    background: #f2f6f9 !important;
+}
+
+.page-sidebar .page-sidebar-menu > li.active.open > a > i, .page-sidebar .page-sidebar-menu > li.active > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > i {
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu > li.active > a > i, .page-sidebar .page-sidebar-menu .sub-menu > li.open > a > i, .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a > i {
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu > li.open > a, .page-sidebar .page-sidebar-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a {
+    background: #f2f6f9;
+    color: #337ab7;
+}
+
+    .page-sidebar .page-sidebar-menu > li.open > a > i, .page-sidebar .page-sidebar-menu > li:hover > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a > i {
+        color: #337ab7;
+    }
+
+.page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a {
+    border-right: 3px solid #337ab7 !important;
+    margin-right: -3px;
+    padding-right: 15px;
+}
+
+    .page-sidebar .page-sidebar-menu > li.active.open > a > .arrow.open:before, .page-sidebar .page-sidebar-menu > li.active.open > a > .arrow:before, .page-sidebar .page-sidebar-menu > li.active > a > .arrow.open:before, .page-sidebar .page-sidebar-menu > li.active > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > .arrow:before {
+        color: #337ab7;
+    }
+
+.page-sidebar .page-sidebar-menu li > a > .arrow.open:before, .page-sidebar .page-sidebar-menu li > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li > a > .arrow:before {
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu li > a > .arrow.open:before, .page-sidebar .page-sidebar-menu li > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li > a > .arrow:before {
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu > li > a > .arrow.open:before, .page-sidebar .page-sidebar-menu > li > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a > .arrow:before {
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu > li > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a {
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu li.active > a > .arrow.open:before, .page-sidebar .page-sidebar-menu li.active > a > .arrow:before, .page-sidebar .page-sidebar-menu li:hover > a > .arrow.open:before, .page-sidebar .page-sidebar-menu li:hover > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li.active > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li.active > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li:hover > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li:hover > a > .arrow:before {
+    color: #337ab7;
+}
+
+.page-sidebar .page-sidebar-menu > li.open > a > .arrow.open:before, .page-sidebar .page-sidebar-menu > li.open > a > .arrow:before, .page-sidebar .page-sidebar-menu > li:hover > a > .arrow.open:before, .page-sidebar .page-sidebar-menu > li:hover > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a > .arrow:before {
+    color: #337ab7;
+}
+
+/*.page-header.navbar .top-menu .navbar-nav > li.dropdown-language > .dropdown-toggle > .langname, .page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username, .page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > i {
+    color: #337ab7;
+}*/
+
+.alert-rose {
+    background-color: #337ab7;
+    border-color: #e0ebf9;
+    color: #ffffff;
+}
+
+.margin-left-10 {
+    margin-right: 10px
+}
+
+.mt-radio > span:after {
+    background: #fff;
+}
+
+.mt-checkbox:hover > input:not([disabled]):checked ~ span, .mt-checkbox > input:checked ~ span, .mt-radio:hover > input:not([disabled]):checked ~ span, .mt-radio > input:checked ~ span {
+    background: #337ab7;
+}
+
+
+/*XEdit*/
+.editable-container.popover {
+    padding: 10px
+}
+
+.editable-buttons {
+    padding-right: 20px;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+    font-weight: bold;
+    color: #000;
+}
+
+.select2-result-repository__forks, .select2-result-repository__stargazers, .select2-result-repository__watchers {
+    color: #000;
+}
+
+.tablefont-12 td {
+    font-size: 12px !important;
+}
+
+.tablerose th {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.tablerose thead tr th:first-child {
+    border-top-right-radius: 5px;
+}
+
+.tablerose thead tr th:last-child {
+    border-top-left-radius: 5px;
+}
+
+.table-condensed-3p > tbody > tr > td,
+.table-condensed-3p > tbody > tr > th,
+.table-condensed-3p > tfoot > tr > td,
+.table-condensed-3p > tfoot > tr > th,
+.table-condensed-3p > thead > tr > td,
+.table-condensed-3p > thead > tr > th {
+    padding: 3px !important;
+}
+
+/*.bootstrap-touchspin span {
+    padding-top: 3px;
+}*/
+
+.form-horizontal .form-group .input-sm {
+    margin-top: 0px;
+}
+
+.input-group.select2-bootstrap-prepend {
+    width: 100%
+}
+
+.modal-footer {
+    background-color: #eee;
+    border-top: 1px solid #dadada !important;
+}
